@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailUser">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/image1"
+        android:id="@+id/dimage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom : xxxx"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:id="@+id/nom"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prenom : xxxx"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:id="@+id/prenom"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tel : xxxx"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:id="@+id/tel"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : xxxx"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:id="@+id/email"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date niassance : xxxx"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        android:id="@+id/date"/>
+
+</LinearLayout>
